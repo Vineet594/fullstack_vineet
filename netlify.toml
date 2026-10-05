@@ -1,0 +1,6 @@
+[build]
+  # The repository has no "frontend" folder; build from the repository root.
+  base = "."
+  # This is a Spring Boot (Java) backend with no npm project, so there is nothing for Netlify to build.
+  command = "echo 'No frontend build step for this Spring Boot backend'"
+  publish = "public"
